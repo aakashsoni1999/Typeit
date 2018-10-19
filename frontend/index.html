@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Typeit-DTU</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      position: relative; 
+  }
+  p{
+      font-size:20px;
+  }
+  #section1 {padding-top:50px;height:1000px;color: rgb(12, 11, 11); background-color: rgb(247, 222, 168);}
+  #section2 {padding-top:50px;height:1000px;color: rgb(12, 11, 11); background-color: #8de1ec;}
+  #section3 {padding-top:50px;height:1000px;color: rgb(12, 11, 11);background-color: #00ff5562;}
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Typeit-DTU</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Easy</a></li>
+          <li><a href="#section2">Medium</a></li>
+          <li><a href="#section3">Hard</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<div id="section1" class="container-fluid">
+  <h1>Easy</h1>
+ <p>this is a simple paragraph that is meant to be nice and easy to type which is why there will be mommas no periods or any capital letters so i guess this means that it cannot really be considered a paragraph but just a series of run on sentences this should help you get faster at typing as im trying not to use too many difficult words in it although i think that i might start making it hard by including some more difficult letters I'm typing pretty quickly so forgive me for any mistakes i think that i will not just tell you a story about the time i went to the zoo and found a monkey and a fox playing together they</p>
+  <textarea id="area1" rows="8" cols="127" style="font-size:20px;"></textarea>
+    <button onclick="submit1()">Submit</button>
+    <button onclick="timer1=setInterval(mycount1,1000)">Start</button>
+    <span id="t1" style="font-size:20px;"></span>
+    <p id="out1"></p>
+</div>
+<div id="section2" class="container-fluid">
+  <h1>Medium</h1>
+  <p>A greedy mouse saw a basket full of corn. He wanted to eat it. So he made a small hole in the basket. He squeezed in through the hole. He ate a lot of corn. He felt full and was very happy.
+
+        Now he wanted to come out. He tried to come out through the small hole. He could not. His belly was full. He tried again. But it was of no use.
+        
+        The mouse started crying. A rabbit was passing by. It heard the mouse’s cry and asked, “Why are you crying, my friend?”
+        
+        The mouse explained, “I made a small hole and came into the basket to eat the corn. Now I am not able to get out through that hole.”
+        
+        The rabbit said, “It is because you ate too much. Wait till your belly shrinks.” The rabbit laughed and went away.
+        
+        Short Stories - Greedy MouseThe mouse fell asleep in the basket. The next morning his belly had shrunk. But he wanted to eat some more corn. He forgot all about getting out of the basket. So he ate the corn and his belly was really big again.
+        
+        After eating, the mouse remembered that he had to escape. But obviously, he could not. So he thought, “Oh! Now I will go out tomorrow.”
+        
+        The cat was the next passerby. He smelt the mouse in the basket. He lifted its lid and ate the mouse.</p>
+  <textarea id="area2" rows="8" cols="127" style="font-size:20px;"></textarea>
+    <button onclick="submit2()">Submit</button>
+    <button onclick="timer2=setInterval(mycount2,1000)">Start</button>
+    <span id="t2" style="font-size:20px;"></span>
+    <p id="out2"></p>
+</div>
+<div id="section3" class="container-fluid">
+  <h1>Hard</h1>
+  <p>Once upon a time, a man and his wife had the good fortune to have a goose which laid a golden egg every day. Lucky though they were, they soon began to think they were not getting rich fast enough.
+
+        They imagined that if the bird is able to lay golden eggs, its insides must be made of gold. And they thought that if they could get all that precious metal at once, they would get mighty rich very soon. So the man and his wife decided to kill the bird.
+        
+        However, upon cutting the goose open, they were shocked to find that its innards were like that of any other goose!
+        
+        MORAL: THINK BEFORE YOU ACT
+        
+        Kill not the goose that lays golden eggs is a popular proverb in English that is rooted in this story.
+        
+        When we use this proverb, we mean that anyone who feels entitled to, and tries to get more than he is already receiving, is most likely to get nothing at all in the future.
+        
+        
+         
+        Read the following example:
+        
+        Goose with the Golden Eggs StoryYoung Johnny had a very kind and generous uncle. Every time Johnny visited him with his parents, he was given five cents. One day, Johnny thought of buying a bike. The next time he met his uncle, he asked him for 50 dollars. “50 dollars?” exclaimed his uncle. “That is a lot of money!”
+        
+        “Well, you can afford it, and I want to buy a bike,” said Johnny. “You don’t have any children, so you should have a lot of money.”
+        
+        Johnny’s uncle was very angry. He did not like Johnny’s attitude.
+        
+        Johnny did not get 50 dollars. He did not get his five cents also any more.
+        
+        He had killed the goose that laid golden eggs. If he had been wiser, he would have at least got his five cents.
+        
+        Sometimes, we are not content with what we have, and wish for more. Such discontentment always results in unhappiness, and regret.</p>
+  <textarea id="area3" rows="8" cols="127" style="font-size:20px;"></textarea>
+    <button onclick="submit3()">Submit</button>
+    <button onclick="timer3=setInterval(mycount3,1000)">Start</button>
+    <span id="t3" style="font-size:20px;"></span>
+    <p id="out3"></p>
+</div>
+
+</body>
+</html>
